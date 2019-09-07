@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <title>Welcome | Teddy's Red Hots</title>
+    <script src="https://kit.fontawesome.com/937f708276.js"></script>
+    <link rel='stylesheet' href='./main.css'>
+    <style>
+    :root {
+      --white: #fff;
+      --red: #c83727;
+      --blue2: #4727c8;
+      --blue: #2768c8;
+      --yellowlime: #a8c827;
+      --yellow: #ffff00;
+      /* alt scheme with primarys */
+      /* --red2: #ff0000; --blue2: #0000ff; --yellow2: #ffff00; */
+    }
+    </style>
+  </head>
+  <body>
+    <div class="page-grid">
+      <header id="page-header" class="page-header">
+        <div class="wrapper">
+          <nav class="main-nav">
+            <a href="#" class="nav-logo">
+              <img src="./images/logo.png" alt="logo for teddy's red hots"
+                class="img-fluid-height">
+            </a>
+            <a id="btn-toggle-drawer" class="btn-drawer">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div id="nav-drawer" class="nav-drawer">
+              <!-- make simple nav list for now, add more later -->
+              <!-- add image to top-->
+              <ul class="nav-list nav-list-mobile">
+                <li><a href="#" class="nav-link nav-link-mobile">
+                    <span>About</span>
+                  </a></li>
+                <li><a href="#page-featured" class="nav-link nav-link-mobile">
+                    <span>Featured</span>
+                  </a></li>
+                <li><a href="#page-locations" class="nav-link nav-link-mobile">
+                    <span>Locations</span>
+                  </a></li>
+                <li><a href="#page-contact" class="nav-link nav-link-mobile">
+                    <span>Contact</span>
+                  </a></li>
+              </ul>
+            </div>
+            <!-- add fun icons nav -->
+            <ul class="nav-list-lg">
+              <li><a href="#" class="nav-link">About</a></li>
+              <li><a href="#page-featured" class="nav-link">Featured</a></li>
+              <!-- Make Dropdown -->
+              <li><a href="#page-locations" class="nav-link">Locations</a></li>
+              <li><a href="#page-contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section id="page-primary" class="page-primary">
+        <div class="wrapper">
+          <div class="pageblock">
+            <div class="primary-content">
+              <!-- Add cooler font for header -->
+              <h1 class="heading-big">Teddy's Red Hots</h1>
+              <h3 class="subheading-big">An All American Tradition</h3>
+              <a href="#" class="btn primary-btn">Darien Menu</a>
+              <a href="#" class="btn primary-btn">Downer's Grove Menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-featured" class="page-featured">
+        <div class="wrapper">
+          <div class="pageblock">
+            <div class="featured-content">
+              <h1><span>Featured</span></h1>
+              <article class="gallery">
+                <!-- 3 per row in mobile, 5-6 in desktop-->
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+                <!-- Row 2 Mobile-->
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+                <img src="./images/food/beef-sandwhich-02.jpg" alt="menu item
+                  from teddy's red hots" class="img-fluid gallery-item">
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-locations" class="page-locations">
+        <div class="wrapper">
+          <div class="pageblock">
+            <h1><span>Locations</span></h1>
+            <div class="locations-content">
+              <div class="location-item">
+                <img src="./images/venue/restaurant-04.jpg" alt="a picture of
+                  darien location's restaurant" class="location-image
+                  img-fluid-height">
+                <div class="location-item-content">
+                  <h3>Darien</h3>
+                  <p>Darien is a cool 50s themed hot dog joint to get your beef
+                    fixings</p>
+                  <a href="#" class="btn primary-btn">See More</a>
+                </div>
+              </div>
+              <div class="location-item">
+                <img src="./images/venue/restaurant-04.jpg" alt="a picture of
+                  darien location's restaurant" class="location-image
+                  img-fluid-height">
+                <div class="location-item-content">
+                  <h3>Downer's Grove</h3>
+                  <p>Downer's Grove is a trendy modern themed italian meat cafe
+                    to get your favorite
+                    american dinner</p>
+                  <a href="#" class="btn primary-btn">See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-contact" class="page-contact">
+        <div class="wrapper">
+          <div class="pageblock">
+            <div class="contact-content">
+              <!-- contact form -->
+              <h1><span>Contact Us</span></h1>
+              <form id="contact-form" class="contact-form"
+                action="get">
+                <!-- name, subject, message -->
+                <label for="name">
+                  <span>Name</span>
+                  <input type="text" id="form-name" placeholder="Your Name">
+                </label>
+                <label for="subject">
+                  <span>Subject</span>
+                  <select name="subject" id="form-subject">
+                    <option value="">Option</option>
+                    <option value="">Option</option>
+                    <option value="">Option</option>
+                    <option value="">Option</option>
+                  </select>
+                </label>
+                <label for="message">
+                  <span>Message</span>
+                  <textarea name="message" id="form-message" cols="30"
+                    rows="10"></textarea>
+                </label>
+                <input type="submit" id="form-submit" class="btn btn-submit"
+                  value="Send">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-social" class="page-social">
+        <!-- shorter, all-white section -->
+        <div class="wrapper">
+          <div class="pageblock">
+            <h1><span>Social Media</span></h1>
+            <div class="social-content">
+              <!-- social list -->
+              <a href="#" class="btn-social">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="btn-social">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="btn-social">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="page-footer" class="page-footer">
+        <div class="wrapper">
+          <div class="pageblock">
+            <div class="footer-content">
+              <h3>&copy;Teddy's Red Hots 2019</h3>
+              <nav>
+                <!-- maybe add sublists -->
+                <ul class="footer-nav-list">
+                  <!-- Add icon left of link item-->
+                  <li class="list-header"><a href="#"><span>To Top</span></a></li>
+                  <li class="list-header"><a href="#page-featured"><span>Featured</span></a></li>
+                  <li class="list-header"><a href="#page-locations"><span>Locations</span></a></li>
+                  <li class="list-header"><a href="#page-contact"><span>Contact</span></a></li>
+                </ul>
+              </nav>
+              <img src="./images/logo.png" alt="logo for teddy's red hots"
+                class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
