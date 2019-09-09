@@ -1,4 +1,4 @@
-# Hot Dog Website  (Live Here)[https://teddys-red-hots.surge.sh]  
+# Hot Dog Website  [Live Here](https://teddys-red-hots.surge.sh)  
 Designing and building a hot dog website for a chicago-based client.
 
 ### Challenges
