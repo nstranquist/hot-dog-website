@@ -1,5 +1,6 @@
-# Hot Dog Website  [Live Here](https://teddys-red-hots.surge.sh)  
-Designing and building a hot dog website for a chicago-based client.
+# Hot Dog Website
+Designing and building a hot dog website for a chicago-based client.  
+### [Live Here](https://teddys-red-hots.surge.sh)  
 
 ### Challenges
 Color Scheme:  
