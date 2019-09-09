@@ -3,14 +3,17 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no">
-    <title>Welcome | Teddy's Red Hots</title>
+    <meta name="description" content="Teddy's Red Hots is an authentic,
+      Chicago-based, family-owned restaurant serving authentic italian beef. It
+      has two locations, stop by today!">
+    <title>Chicago Authentic Italian Beef | Teddy's Red Hots</title>
     <script src="https://kit.fontawesome.com/937f708276.js"></script>
     <link rel='stylesheet' href='./main.css'>
     <style>
     :root {
       --white: #fff;
       --red: #c83727;
-      --blue2: #4727c8;
+      --blue2: #4727c8; /* a little too dark and clashy */
       --blue: #2768c8;
       --yellowlime: #a8c827;
       --yellow: #ffff00;
@@ -35,7 +38,7 @@
               <!-- make simple nav list for now, add more later -->
               <!-- add image to top-->
               <ul class="nav-list nav-list-mobile">
-                <li><a href="#" class="nav-link nav-link-mobile">
+                <li><a href="#page-primary" class="nav-link nav-link-mobile">
                     <span>About</span>
                   </a></li>
                 <li><a href="#page-featured" class="nav-link nav-link-mobile">
@@ -52,7 +55,7 @@
             <!-- add fun icons nav -->
             <ul class="nav-list-lg">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#page-primary" class="nav-link">
                   <i class="fa fa-hotdog"></i>
                   About
                 </a>
@@ -136,7 +139,8 @@
                   <h3>Darien</h3>
                   <p>Darien is a cool 50s themed hot dog joint to get your beef
                     fixings</p>
-                  <a href="#" class="btn primary-btn">See More</a>
+                  <a href="./images/menus/darien-menu-merged.pdf" class="btn
+                    primary-btn">Our Menu</a>
                 </div>
               </div>
               <div class="location-item">
@@ -148,7 +152,8 @@
                   <p>Downer's Grove is a trendy modern themed italian meat cafe
                     to get your favorite
                     american dinner</p>
-                  <a href="#" class="btn primary-btn">See More</a>
+                  <a href="./images/menus/downers-grove-menu-merged.pdf"
+                    class="btn primary-btn">See More</a>
                 </div>
               </div>
             </div>
@@ -172,10 +177,10 @@
                 <label for="subject">
                   <span>Subject</span>
                   <select name="subject" id="form-subject">
-                    <option value="">Option</option>
-                    <option value="">Option</option>
-                    <option value="">Option</option>
-                    <option value="">Option</option>
+                    <option value="general">General</option>
+                    <option value="employment">Employment</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
                   </select>
                 </label>
                 <label for="message">
